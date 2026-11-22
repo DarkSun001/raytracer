@@ -1,0 +1,6 @@
+build/
+output.png
+*.o
+*.obj
+.cache/
+compile_commands.json
