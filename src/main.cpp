@@ -22,8 +22,8 @@ int main() {
 
     const Camera camera(Vector(0.0, 0.0, 0.0), 4.0, 3.0, 2.0);
 
-    const int width = 400;
-    const int height = 300;
+    const int width = 1280;
+    const int height = 960;
     const Image image = render(scene, camera, width, height);
 
     const PngImageWriter writer;
